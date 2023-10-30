@@ -205,12 +205,18 @@ body {
 		line-height: 5px;
 	}
 	.info {
-		gap: 10px;
 		position: relative;
 		top: 80px;
 		font-size: 12px;
 		color: rgb(196, 196, 196);
 		line-height: 20px;
 		font-weight: 400;
+	}
+	.info a {
+		text-decoration: none;
+		color: rgb(196, 196, 196);
+	}
+	.info a:hover {
+		text-decoration: underline;
 	}
 }
